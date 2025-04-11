@@ -1,5 +1,6 @@
 # Mern_PizzaShoppingApp
  First MERN based Applcation <br/>
-LivePreview on: https://sparkly-beignet-d3c8a6.netlify.app <br/>
-Frontend :npm run dev<br/>
-Backend : nodemon app.js
+Live Preview on: https://glittering-figolla-53224e.netlify.app/ <br/>
+Added Firebase verification and Payment Gateway <br/>
+Frontend (Netlify):npm run dev<br/>
+Backend (Versal): nodemon app.js
