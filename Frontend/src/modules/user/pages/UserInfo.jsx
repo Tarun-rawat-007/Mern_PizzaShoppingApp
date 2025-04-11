@@ -48,7 +48,7 @@ const UserInfo = ({ email, image, name }) => {
           src={image}
           className="card-img-top rounded-top"
           alt="User"
-          style={{ height: '100px', objectFit: 'cover' }}
+          style={{ height: '300px', objectFit: 'cover' }}
         />
         <div className="card-body">
           <div className="form-group mb-3">
