@@ -15,7 +15,10 @@ app.use(express.json());
 
 // Routes
 app.use('/', productRoutes);
-
+app.get('/', (req, res) => {
+    res.send('Server is Live!');
+  });
+  
 // Initialize DB & Start Server
 const promise = createConnection();
 promise
