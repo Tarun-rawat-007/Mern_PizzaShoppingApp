@@ -35,17 +35,17 @@ const getPizzas =async ()=>{
     
 
   return (
-    <div className='container'>
+    <div className='container' >
         <Header></Header>
         <CartContext.Provider value={{carts:carts,addCart:addCart}}>
-        <div className="row">
-            <div className="col-8">
+        <div className="row" >
+            <div className="col-7">
                 <div className="row">
                 {loading?<p>Loading....</p>:<Products products={pizzas}></Products>}
 
                 </div>
             </div>
-            <div className="col-4">
+            <div className="col-5">
                 <h3 className='alert alert-success'>Carts:</h3>
                 <CartView></CartView>
 

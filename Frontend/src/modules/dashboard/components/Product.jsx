@@ -6,7 +6,7 @@ import { CartContext } from "../context/card-context";
 
 const Product = ({product}) => {
   const ctx=useContext(CartContext);
-    const myStyle={width: '18rem'};
+    const myStyle={width: '12rem'};
     const addToCart=()=>{
       ctx.addCart({...product})
       console.log("Add to Cart Call...",product);
